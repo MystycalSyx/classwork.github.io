@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: green;
+  background: #f7f7f7;
   /* Old browsers */
   background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
   /* FF3.6-15 */
@@ -17,7 +17,7 @@ body {
   background-position: center center;
 }
 
-.aboutme {
+.roasting {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: Green;
@@ -27,7 +27,7 @@ body {
   align-self: center;
 }
 
-.mylife p {
+.roasting p {
   color: white;
   text-align: center;
   line-height: 24px;
@@ -50,18 +50,24 @@ body {
 }
 
 /* Roast types */
-.mylife {
+.green {
   background-color: rgb(143, 188, 143);
 }
 
-.Work {
+.light {
   background-color: rgb(160, 82, 45);
 }
 
-.School {
+.city {
   background-color: rgb(139, 69, 19);
 }
-
+  .vienna {
+    background-color: Brown;
+  }
+  
+  .italian {
+    background-color: Black;
+  }
 
 /* Typography */
 h1 {
@@ -138,3 +144,7 @@ a {
   text-decoration: none;
   letter-spacing: 2px;
 }
+footer p {
+    text-align: center;
+    font-size: small;
+  }
